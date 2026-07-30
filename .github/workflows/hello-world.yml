@@ -1,5 +1,7 @@
 name: Hello world workflow
-on: [push]
+on:
+  push:
+
 jobs:
   build:
     runs-on: ubuntu-latest
